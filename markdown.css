@@ -1,0 +1,48 @@
+html{
+  height: 100%;
+}
+
+body { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+.editor-holder, .preview-holder{
+  width: 50%;
+  float: left;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.editor-holder{
+  border-right: 1px solid #ccc;
+  margin-right: -1px;
+}
+
+.preview, .editor{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  
+  padding: 10px;
+  margin: 0;
+  overflow-y: scroll;
+}
+
+.editor{
+  font-family: 'Source Code Pro', sans-serif;
+  border: none;
+  line-height: 150%;
+  outline: 0;
+  resize: none;
+  max-width: 100%;
+  overflow-x: hidden;
+}

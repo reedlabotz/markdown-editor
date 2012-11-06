@@ -1,0 +1,5 @@
+name:  markdown
+description:  A sample application
+
+dependencies:
+  dartdoc: { sdk: dartdoc }
