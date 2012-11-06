@@ -20,9 +20,9 @@ body {
   position: relative;
 }
 
-.editor-holder{
-  border-right: 1px solid #ccc;
-  margin-right: -1px;
+.preview-holder{
+  border-left: 1px solid #ccc;
+  margin-left: -1px;
 }
 
 .preview, .editor{
@@ -45,4 +45,12 @@ body {
   resize: none;
   max-width: 100%;
   overflow-x: hidden;
+}
+
+.preview{
+  background: #fafafa;
+}
+
+.cursor{
+  opacity: 0;
 }
